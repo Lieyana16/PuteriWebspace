@@ -1,0 +1,123 @@
+﻿/* ---------- Umum ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ---------- Container ---------- */
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* ---------- Header ---------- */
+header {
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  text-align: center;
+  color: white;
+  padding: 4rem 1rem;
+  border-bottom: 3px solid #fff;
+}
+
+header h1 a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+header h2 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+header h2 span {
+  color: #ffe082;
+  font-weight: bold;
+}
+
+/* ---------- Social Links ---------- */
+.social-links {
+  margin-top: 1.5rem;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  color: #fff59d;
+}
+
+/* ---------- About Section ---------- */
+.about-me {
+  background-color: #fff;
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+  text-align: center;
+}
+
+.section-title p {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.content h3 {
+  text-align: center;
+  color: #a18cd1;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* ---------- Responsive View ---------- */
+@media (max-width: 768px) {
+  header h1 a {
+    font-size: 2.2rem;
+  }
+
+  header h2 {
+    font-size: 1.1rem;
+  }
+
+  .content h3 {
+    font-size: 1.3rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+}
