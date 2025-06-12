@@ -1,4 +1,4 @@
-﻿/* ---------- Umum ---------- */
+/* ---------- Umum ---------- */
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +6,9 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #fefefe;
-  color: #333;
+  font-family: 'Orbitron', 'Open Sans', sans-serif;
+  background-color: #0f111a;
+  color: #e0e0e0;
   line-height: 1.6;
 }
 
@@ -22,18 +22,20 @@ body {
 
 /* ---------- Header ---------- */
 header {
-  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  background: linear-gradient(135deg, #00c9ff, #92fe9d);
   text-align: center;
-  color: white;
+  color: #0f111a;
   padding: 4rem 1rem;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #00ffd5;
+  box-shadow: 0 10px 25px rgba(0, 255, 213, 0.2);
 }
 
 header h1 a {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 2.8rem;
-  color: white;
+  color: #0f111a;
   text-decoration: none;
+  letter-spacing: 2px;
 }
 
 header h2 {
@@ -43,8 +45,8 @@ header h2 {
 }
 
 header h2 span {
-  color: #ffe082;
-  font-weight: bold;
+  color: #ff00ff;
+  font-weight: 600;
 }
 
 /* ---------- Social Links ---------- */
@@ -55,42 +57,43 @@ header h2 span {
 .social-links a {
   display: inline-block;
   margin: 0 10px;
-  font-size: 1.5rem;
-  color: white;
-  transition: transform 0.3s ease;
+  font-size: 1.6rem;
+  color: #0f111a;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-links a:hover {
-  transform: scale(1.2);
-  color: #fff59d;
+  transform: scale(1.3) rotate(5deg);
+  color: #ffeb3b;
 }
 
 /* ---------- About Section ---------- */
 .about-me {
-  background-color: #fff;
+  background-color: #1a1d29;
   margin-top: 3rem;
   padding: 3rem 2rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0,255,255,0.06);
 }
 
 .section-title h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: #444;
+  color: #00ffd5;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .section-title p {
   text-align: center;
   font-style: italic;
-  color: #888;
+  color: #a8dadc;
   margin-bottom: 2rem;
 }
 
 .content h3 {
   text-align: center;
-  color: #a18cd1;
+  color: #ff6ec7;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -100,7 +103,7 @@ header h2 span {
   max-width: 700px;
   margin: 0 auto;
   font-size: 1.1rem;
-  color: #555;
+  color: #d4d4f7;
 }
 
 /* ---------- Responsive View ---------- */
