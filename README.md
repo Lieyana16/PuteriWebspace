@@ -16,7 +16,9 @@ This is my personal portfolio website built using HTML and CSS, showcasing my cr
 - GitHub Pages
 
 ## 🚀 How to Run the Project
-
+1. Download or clone the repository.
+2. Open index.html in any web browser.
+3. Make sure all images are in the same folder or correctly linked.
 Visit the live website here:  
 🔗 [https://lieyana16.github.io/PuteriWebspace/](https://lieyana16.github.io/PuteriWebspace/)
 
