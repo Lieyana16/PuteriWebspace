@@ -22,3 +22,26 @@ This is my personal portfolio website built using HTML and CSS, showcasing my cr
 Visit the live website here:  
 🔗 [https://lieyana16.github.io/PuteriWebspace/](https://lieyana16.github.io/PuteriWebspace/)
 
+## 📂 Folder Structure
+
+PuteriWebspace/
+├── index.html
+├── README.md
+├── Ai.png
+├── An.png
+├── Blender.png
+├── CHOCOALBAB2 (1).png
+├── Chocoalbab1.jpg
+├── FYP1.png
+├── FYP2.png
+├── FYP3.png
+├── FYP4.png
+├── Figma.png
+├── HumanModelByMe.jpg
+├── Maya.png
+├── Picture1.png
+├── Picture2.png
+├── Picture3.png
+├── Picture4.png
+├── ... (gambar/fail tambahan jika ada)
+
